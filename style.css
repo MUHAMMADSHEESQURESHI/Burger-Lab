@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+ul{
+    font-size: 20px;
+    color: #ffffff;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.item {
+    color:#b0111f;
+
+}
+li:hover {
+    color:#b0111f;
+    transition: color 0.3s;
+
+
+}
+ *{
+    font-family: "Boogaloo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.container {
+    
+width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.bg{
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px;
+    
+}
+.products , .hero{
+    background-color: #f0f0f0;
+}
+.service {
+    background-image: url(images/service.jpg);
+    color: #ffffff;
+}
+.f-color{
+    color: #532f17;
+}
+
+
+
+
+
+
+@media only screen and (max-width :600px){
+   .products{
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+   .service{
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+   }
+   .special {
+    width: 75%;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
